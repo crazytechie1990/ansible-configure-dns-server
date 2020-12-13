@@ -1,9 +1,5 @@
 ---
 # tasks file for roles/DNSServerConfig
-#
-# Task to install the BIND Packages
-#
-#
 - name: Install BIND package.
   package:
     name:
