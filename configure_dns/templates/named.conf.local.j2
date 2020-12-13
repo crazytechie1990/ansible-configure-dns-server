@@ -1,0 +1,13 @@
+# Template to create forward and reverse zone entries
+zone "{{ domain }}" IN {
+    type master;
+    file "/var/named/db.{{ domain }}";
+    allow-update { none; };
+};
+
+zone "{{ rev_domain }}" IN {
+    type master;
+    file "/var/named/db.{{ rev_domain }}";
+    allow-update { none; };
+};
+

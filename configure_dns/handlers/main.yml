@@ -1,0 +1,7 @@
+---
+# handlers file for roles/DNSServerConfig
+- name: restart named 
+  systemd:
+    name: named
+    state: restarted
+
