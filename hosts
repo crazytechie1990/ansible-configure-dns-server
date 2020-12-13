@@ -13,11 +13,3 @@ ubuntu-client
 centos-client
 
 
-#[winclients]
-#windows-client
-
-#[winclients:vars]
-#ansible_user=administrator
-#ansible_password=P@ssw0rd
-#ansible_connection=ssh
-#remote_tmp="C://Temp"
