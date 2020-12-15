@@ -1,2 +1,3 @@
 # ansible_configure_dns
- DNS Server Configuration Using Ansible
+## configure_dns 
+Ansible role for DNS Server Configuration.
