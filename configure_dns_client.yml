@@ -1,0 +1,20 @@
+---
+#
+#Playbook to perform dns client side configuration.
+#
+- name: Add DNS Server to all the clients
+  hosts: all
+  tasks:
+
+    - name: Add IPv4 DNS server addresse
+      community.general.nmcli:
+        conn_name: "{{ ansible_default_ipv4.interface }}"
+        type: ethernet
+        dns4:
+          - 172.23.4.6
+        state: present
+
+    - name: Restart network
+      service:
+        name: NetworkManager
+        state: restarted
