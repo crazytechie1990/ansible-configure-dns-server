@@ -5,4 +5,4 @@ DNS Server Configuration using Ansible.
 Ansible role for Server Side Configuration.
 
 ### configure_dns_client
-Ansible role for Client Side Configuration.
+Ansible playbook for dns Client Side Configuration.
