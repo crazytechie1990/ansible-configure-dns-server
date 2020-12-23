@@ -3,9 +3,24 @@
 domain: crazytechie.lab
 rev_domain: 4.23.172.in-addr.arpa
 records:
-  master: {forward: 172.23.4.6, type: A, last: 11, rev: 4.23.172.in-addr.arpa.}
-  controller: {forward: 172.23.4.1, type: A, last: 5, rev: 4.23.172.in-addr.arpa.}
-  rhel-client: {forward: 172.23.4.2, type: A, last: 8, rev: 4.23.172.in-addr.arpa.}
-  centos-client: {forward: 172.23.4.3, type: A, last: 13, rev: 4.23.172.in-addr.arpa.}
-  ubuntu-client: {forward: 172.23.4.4, type: A, last: 15, rev: 4.23.172.in-addr.arpa.}
+  master: { forward: 172.23.4.6, 
+            type: A, 
+            last: 11, 
+            rev: 4.23.172.in-addr.arpa.}
+  controller: {forward: 172.23.4.1, 
+               type: A, 
+               last: 5, 
+               rev: 4.23.172.in-addr.arpa.}
+  rhel-client: {forward: 172.23.4.2, 
+                type: A, 
+                last: 8, 
+                rev: 4.23.172.in-addr.arpa.}
+  centos-client: {forward: 172.23.4.3, 
+                  type: A, 
+                  last: 13, 
+                  rev: 4.23.172.in-addr.arpa.}
+  ubuntu-client: {forward: 172.23.4.4, 
+                  type: A, 
+                  last: 15, 
+                  rev: 4.23.172.in-addr.arpa.}
 
