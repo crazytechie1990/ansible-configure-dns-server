@@ -5,4 +5,4 @@
 
 # Roles: list of roles to be imported into the play
   roles:
-    - role: 'ansible_configure_dns/configure_dns'
+    - role: 'configure_dns'
